@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gssp-version-1-1-test01
+  description: Python app that displays time - named gssp-version-1-1-test01
+  annotations:
+    github.com/project-slug: Backstage-IDP-PoC/gssp-version-1-1-test01
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name:  Backstage_PoC/gssp-version-1-1-test01/main
+    argocd/app-name: gssp-version-1-1-test01
+    argocd/instance-name: main
+    sonarqube.org/project-key: gssp-version-1-1-test01
+ 
+spec:
+  type: service
+  owner: development
+
+  lifecycle: experimental

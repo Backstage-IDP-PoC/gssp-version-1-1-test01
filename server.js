@@ -6,16 +6,16 @@ const server = http.createServer((req, res) => {
   res.end(`
     <body style="background:white;font-family:Arial;text-align:center;margin-top:40px;padding:20px;">
       
-      <h1 style="color:#0B5ED7;font-size:42px;">
+      <h1 style="color:blue;font-size:42px;">
         Welcome to the AI-Powered DevOps Self Service Portal
       </h1>
 
-      <p style="color:#444;font-size:24px;max-width:1200px;margin:auto;line-height:1.7;">
+      <p style="color:black;font-size:24px;max-width:1200px;margin:auto;line-height:1.7;">
         Accelerating Digital Transformation with Intelligent DevOps Automation, 
         Seamless CI/CD Integration, and Enterprise-Grade Deployment Strategies.
       </p>
 
-      <p style="color:#666;font-size:20px;max-width:1300px;margin:30px auto;line-height:1.8;">
+      <p style="color:gray;font-size:20px;max-width:1300px;margin:30px auto;line-height:1.8;">
         Our platform is now integrated with <b>Artificial Intelligence</b> to empower development teams 
         with faster delivery, enhanced software quality, proactive security, and scalable cloud-native deployments.
         <br><br>
@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
         improved developer productivity, and a highly reliable client-centric delivery ecosystem.
       </p>
 
-      <h2 style="color:#198754;margin-top:40px;">
+      <h2 style="color:green;margin-top:40px;">
         Driving Innovation • Automation • Security • Business Growth
       </h2>
 
